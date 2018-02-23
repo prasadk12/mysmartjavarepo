@@ -7,7 +7,8 @@ int a=20;
 Integer i=Integer.valueOf(a);//converting int into Integer  
 Integer j=a;//autoboxing, now compiler will write Integer.valueOf(a) internally  
   
-System.out.println(a+" "+i+" "+j);  
+System.out.println(a+" "+i+" "+j); 
+
 Integer k= new Integer(3);
 int k1= k.intValue();
 Integer k2=k1;
